@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    font-family: 'Cardo', serif;
+}
+
+.body{
+    background-color: #C8CAEF;
+}
+
+main h1{
+    display: inline;
+    background-color: #3A4889;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-right: 3em;
+    padding:1%;
+    color:white;
+
+}
+
+main{
+    padding-top:5%;
+
+}
+
+main p{
+
+    padding-top: 3%;
+    font-size: 24px;
+}
+
+.texto{
+
+    background-color: #3A4889;
+    color:white ;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 1%;
+
+}
+
+.fotos{
+    margin: 80px;
+    width: 500px;
+   
+
+}
+.navbar{
+    padding:0px;
+}
+.container-fluid {
+    background-color: #304574;
+    margin: 0px;
+
+}
+
+.logo {
+    height: 155px;
+    width: auto;
+}
+.navbar-toggler{
+    padding-top: 0px;
+}
+
+nav{
+    font-size: 20px;
+    
+} 
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+header nav li:hover {
+    transform: scale(1.1);
+}
+
+
+
+.formulario {
+    font-size: 75px;
+}
+
+
+
+@media (max-width:768px) {
+    .mapa {
+        height: 200px;
+    }
+}
+
+footer {
+    background-color: #304574;;
+    height: 70px;
+    font-size: 21px;
+    
+}
+
+
+ul{list-style-type: none; padding: 0;}
+li{display: flex; align-items: center;}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}

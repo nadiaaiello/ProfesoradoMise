@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  font-family: 'Cardo', serif;
+  
+}
+
+body {
+  background-color: #C8CAEF;
+}
+
+
+
+.logo {
+  width: 70px;
+}
+.container-fluid, footer{background-color: #304574;}
+
+
+.texto {
+  padding: 5%;
+}
+
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color:#304574;
+  text-decoration: none;
+  text-align: center;
+  background-color: whitesmoke;
+  font-weight: bolder;
+}
+
+.row-banner {
+  background-color: #3B548B;
+}
+
+@media (min-width:768px) {
+  .banner {
+    margin-top: 0px;
+    background-image: url(./img/COMPLETA.png);
+    height: 90vh;
+    background-position-y:bottom;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+  .carreras{ 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+  }
+
+}
+
+@media (max-width:768px) {
+  .mapa {
+    height: 200px;
+  }
+
+  .banner {
+    margin-top: 0px;
+    background-image: url(./img/versioncelular.png);
+    height: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+  .carreras{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+
+
+
+}
+
+ul{
+  list-style-type: none; 
+  padding: 0;
+}
+li{display: flex; 
+  align-items: center;
+}
+
+.textoIndex{
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.carreras img{width:500px; margin: 20px;}
+
+
+.textoimagen{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.mapa{width:100%; height:100%}
