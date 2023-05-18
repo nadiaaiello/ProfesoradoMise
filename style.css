@@ -55,7 +55,7 @@ body {
     
   }
   
-  .carreras img{
+  .carreras a{
         width:500px;
   }
 
@@ -81,7 +81,7 @@ body {
     justify-content: center; 
     align-items: center;
   }
-    .carreras img{
+    .carreras a{
         width:300px;
   }
 
