@@ -36,7 +36,6 @@ body {
   background-color: #3B548B;
 }
 
-
 @media (min-width:768px) {
   .banner {
     margin-top: 0px;
@@ -54,11 +53,9 @@ body {
     align-items: center;
     
   }
-  
-  .carreras a{
-        width:500px;
-  }
-
+.carreras img{
+  width:90%
+}
 
 }
 
@@ -81,9 +78,6 @@ body {
     justify-content: center; 
     align-items: center;
   }
-    .carreras a img{
-        width:200px;
-  }
 
 
 
@@ -103,7 +97,7 @@ li{display: flex;
 
 }
 
-
+.carreras img{width:500px; margin: 20px;}
 
 
 .textoimagen{
